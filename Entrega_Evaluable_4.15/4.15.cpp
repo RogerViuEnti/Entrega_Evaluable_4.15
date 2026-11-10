@@ -1,24 +1,3 @@
-/*#include <iostream>
-
-int main() {
-	double valor = 4;
-	double pi =	0;
-	double pi2 = 0;
-	double divisor1;
-	double divisor2;
-	std::cout << "Termino:          Pi:          \n";
-	for (int i = 1; i < 20; i+=2) {
-		divisor1 = 2 * i - 1;
-		divisor2 = 2 * (i+1) - 1;
-		pi += (valor / divisor1);
-		pi2 = pi - (valor / divisor2);
-		std::cout << i << "                    " << pi << "          \n";
-		std::cout << (i+1) << "                    " << pi2 << "          \n";
-	}
-
-
-	return 0;
-}*/
 #include <iostream>
 
 using namespace std;
